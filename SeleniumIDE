@@ -1,0 +1,134 @@
+NuMe Test full
+
+
+	open
+	/
+	
+
+
+	clickAndWait
+	css=img[alt="Classic Curling Wand 32MM "]
+	
+
+
+	click
+	id=attribute163
+	
+
+
+	select
+	id=attribute163
+	label=Turquoise
+
+
+	click
+	css=option[value="49"]
+	
+
+
+	click
+	id=product-addtocart-button
+	
+
+
+	clickAndWait
+	//button[@type='button']
+	
+
+
+	clickAndWait
+	css=button.button
+	
+
+
+	type
+	id=field-email
+	sefremov+123@atypicalbrands.com
+
+
+	click
+	id=field-password-register
+	
+
+
+	type
+	id=field-password-register
+	12345678
+
+
+	click
+	xpath=.//*[@id='opc-login-form']/div/div[4]/div[2]/p/button
+	
+
+
+	click
+	id=shipping:fullname
+	
+
+
+	type
+	id=shipping:fullname
+	Test Sergey Efremov
+
+
+	click
+	id=shipping:telephone
+	
+
+
+	type
+	id=shipping:telephone
+	720-437-1950
+
+
+	type
+	id=shipping:street1
+	16130 Sherman Way
+
+
+	type
+	id=shipping:city
+	Van Nuys
+
+
+	type
+	css=div.chosen-search > input[type="text"]
+	California
+
+
+	click
+	id=shipping:postcode
+	
+
+
+	type
+	id=shipping:postcode
+	91406
+
+
+	click
+	id=coupon:code
+	
+
+
+	type
+	id=coupon:code
+	test-642015
+
+
+	click
+	css=button[type="button"]
+	
+
+
+	clickAndWait
+	css=button.btn.btn-opc-complete
+	
+
+
+	click
+	css=div.buttons > button.btn.btn-opc-complete
+	
+
+
+
